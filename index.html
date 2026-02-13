@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>리얼 고양이 놀이터</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <header class="title-wrap">
+        <h1>🐈 리얼 냥이 놀이터</h1>
+        <p>마우스를 움직이면 시선을 따라오고, 장난감 잡듯 앞발을 뻗어요.</p>
+      </header>
+
+      <section class="scene" aria-label="마우스를 따라 노는 리얼 고양이">
+        <div class="shadow"></div>
+
+        <article class="cat" id="cat">
+          <div class="tail">
+            <span class="tail-tip"></span>
+          </div>
+
+          <div class="body">
+            <div class="chest"></div>
+            <div class="leg leg-left"></div>
+            <div class="leg leg-right"></div>
+          </div>
+
+          <div class="paw paw-left"></div>
+          <div class="paw paw-right"></div>
+
+          <div class="head" id="cat-head">
+            <div class="ear ear-left">
+              <span class="ear-inner"></span>
+            </div>
+            <div class="ear ear-right">
+              <span class="ear-inner"></span>
+            </div>
+
+            <div class="fur-mark fur-mark-top"></div>
+            <div class="fur-mark fur-mark-left"></div>
+            <div class="fur-mark fur-mark-right"></div>
+
+            <div class="face">
+              <div class="eye eye-left">
+                <span class="iris"><span class="pupil"></span></span>
+                <span class="eye-gloss"></span>
+                <span class="eyelid"></span>
+              </div>
+              <div class="eye eye-right">
+                <span class="iris"><span class="pupil"></span></span>
+                <span class="eye-gloss"></span>
+                <span class="eyelid"></span>
+              </div>
+
+              <div class="muzzle"></div>
+              <div class="nose"></div>
+              <div class="mouth"></div>
+
+              <div class="whiskers whiskers-left"></div>
+              <div class="whiskers whiskers-right"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
